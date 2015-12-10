@@ -3,7 +3,8 @@
         "type":"Dynasty",
         "discription":"(FILL IN LATER)",
         "start":1368,
-        "end":1644
+        "end":1644,
+        "alsoSee":["Hongwu","Yongle","Wanli","Nurhaci","Qing Dynasty"]
     },
     "Hongwu":{
         "type":"Emperor",
@@ -13,12 +14,27 @@
     },
     "Yongle":{
         "type":"Emperor",
-        "discription":"(FILL IN LATER)",
+        "discription":"Emperor Yongle oversaw seven maritime expeditions. He wanted to see chinies growth in the indian ocien baison.",
         "start":1403,
-        "end":1424
+        "end":1424,
+        "alsoSee":["Maritime Expiditions","Ming Dynsasty"]
+    },
+    "Maritime Expiditions":{
+        "type":"Event",
+        "discription":"These maritime expiditions were done under the controll of emporor Yongle. They included 317 vesels adn 28,000 men. They were lead by eunuch admiral Zheng He. However, after the reign of Yongle, these mistions were stopped.",
+        "start":1405,
+        "end":1433,
+        "alsoSee":["Yongle","Zheng He"]
+    },
+    "Zheng He":{
+        "type":"Important People",
+        "discription":"Unich Admiral of Chinies maritime expiditions into the Indean Ocean Baison. <img src='img/Zhen_he.jpg' class='img-thumbnail' />",
+        "start":1371,
+        "end":1435,
+        "alsoSee":["Maritime Expiditions"]
     },
     "Matteo Ricci":{
-        "type":"Important Person",
+        "type":"Important People",
         "discription":"Was a jesuit missinary who brought clocks to china. Born 1552, died 1610.",
         "start":1552,
         "end":1610
@@ -36,7 +52,7 @@
         "end":1626
     },
     "Ihara Saikaku":{
-        "type":"Important Person",
+        "type":"Important People",
         "discription":"(FILL IN LATER)",
         "start":1642,
         "end":1693
