@@ -17,13 +17,27 @@ function pr(a) {
     return a;
 }
 
+function setDescription(name) {
+    discription = '<h3>'+name+'</h3>';
+    discription += pr(json[name]["discription"]);
+    alsoSee = pr(json[name]["alsoSee"])
+    
+    if (alsoSee != null) {
+        discription +='<h4>Also See:</h4> <br /> <ui>'
+        $.each(alsoSee,function(index,value){
+           discription += '<li><a onClick="setDescription(\''+value+'\');">'+value+'</a></li>';
+        });
+        discription += "</ui>"
+    }
+    
+    $("#discription").html(discription);
+}
+
 function selectHandeler(e) {
     selection = chart.getSelection();
     name = dataTable.getValue(selection[0].row,1);
     
-    discription = pr(json[name]["discription"]);
-    
-    $("#discription").text(discription);
+    setDescription(name);
     
 }
 
@@ -43,6 +57,7 @@ function drawChart() {
     populateTimelineChart();
     
     google.visualization.events.addListener(chart, 'select', selectHandeler);
+    
 
     
 }
