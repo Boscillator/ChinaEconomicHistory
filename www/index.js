@@ -1,4 +1,4 @@
-var url = './data.json'
+var url = './data.min.json'
 
 var chartOptions = {'title':'Timeline of Chinies economic enteraction'}     
 
@@ -23,7 +23,7 @@ function setDescription(name) {
     alsoSee = pr(json[name]["alsoSee"])
     
     if (alsoSee != null) {
-        discription +='<h4>Also See:</h4> <br /> <ui>'
+        discription +='<h4>Also See:</h4><ui>'
         $.each(alsoSee,function(index,value){
            discription += '<li><a onClick="setDescription(\''+value+'\');">'+value+'</a></li>';
         });
@@ -65,12 +65,11 @@ function drawChart() {
 function populateTimelineChart() {
     
     $.getJSON(url,function (data) {
-        
+        json = data;
         $.each(data, function(name,value){
             
             //console.log(value);
             
-            json = data;
             
             type = value["type"];
             start = value["start"];

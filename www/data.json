@@ -1,16 +1,30 @@
 {
     "Ming Dynsasty":{
         "type":"Dynasty",
-        "discription":"(FILL IN LATER)",
+        "discription":"The Ming Dynasty ruled china from 1368-1644 C.E. It took the place of the Mogel rulership after expelling them. The Ming Dynasty eventuraly fell due to a series of famines, and revolts.",
         "start":1368,
         "end":1644,
-        "alsoSee":["Hongwu","Yongle","Wanli","Nurhaci","Qing Dynasty"]
+        "alsoSee":["Hongwu","Yongle","Wanli","Qing Dynasty"]
+    },
+    "Pirate Problems":{
+        "type":"Event",
+        "discription":"From 1520 to 1560 pirates posed a continual threat to Chinies waters. Ming naval and costal defenses failed, partly due to the inept imperial goverment.",
+        "start":1520,
+        "end":1560
+    },
+    "Beijing falls":{
+        "type":"Event",
+        "discription":"In 1644 rebel forces caputed Beijing from the Ming rules. However, they were expeled by Manchu invaders, who were allid with the loyal forces. However, the marked the end of the Ming Dynasty.",
+        "start":1644,
+        "end":1644,
+        "alsoSee":["Ming Dynasty"]
     },
     "Hongwu":{
         "type":"Emperor",
-        "discription":"(FILL IN LATER)",
+        "discription":"Hongwu returned china to a unifided emperial state by driving out the Mongles. Hongwu also returned the buracrasy to China.",
         "start":1368,
-        "end":1398
+        "end":1398,
+        "alsoSee":["Ming Dynsasty"]
     },
     "Yongle":{
         "type":"Emperor",
@@ -28,60 +42,51 @@
     },
     "Zheng He":{
         "type":"Important People",
-        "discription":"Unich Admiral of Chinies maritime expiditions into the Indean Ocean Baison. <img src='img/Zhen_he.jpg' class='img-thumbnail' />",
+        "discription":"Unich Admiral of Chinies maritime expiditions into the Indean Ocean Baison.",
         "start":1371,
         "end":1435,
         "alsoSee":["Maritime Expiditions"]
     },
     "Matteo Ricci":{
         "type":"Important People",
-        "discription":"Was a jesuit missinary who brought clocks to china. Born 1552, died 1610.",
+        "discription":"Was a jesuit missinary who brought clocks to china. Born 1552, died 1610. He was important in Chinies economic contact with the west.",
         "start":1552,
         "end":1610
     },
     "Wanli":{
         "type":"Emperor",
-        "discription":"(FILL IN LATER)",
+        "discription":"Wanli was the last Ming emporor. He refused to meet with officales directly, instead working the intermedaries. This may be one of the causes of the incressing ineptness of the Ming buracrasy durring the decline of the Ming Dynasty.",
         "start":1572,
-        "end":1620
+        "end":1620,
+        "alsoSee":["Ming Dynsasty"]
     },
     "Nurhaci":{
         "type":"Emperor",
-        "discription":"(FILL IN LATER)",
+        "discription":"Nurhaci was the first Qing emperor. He was a Manchu like all of the Qing. He unifided the Manchues and lead a force against the Ming.",
         "start":1616,
-        "end":1626
-    },
-    "Ihara Saikaku":{
-        "type":"Important People",
-        "discription":"(FILL IN LATER)",
-        "start":1642,
-        "end":1693
+        "end":1626,
+        "alsoSee":["Qing Dynasty","Ming Dynasty"]
     },
     
     "Qing Dynasty":{
         "type":"Dynasty",
-        "discription":"(FILL IN LATER)",
+        "discription":"The Qing Dynasty ruled china after the collapse of the Ming Dynasty. It was comprised of Manchus who came from there homeland to the north. Qing means pure. The Qing dynasty eventualy fell to the revelution.",
         "start":1644,
-        "end":1911
+        "end":1911,
+        "alsoSee":["Nurhaci","Kangxi","Qianlong","Ming Dynsasty"]
     },
     "Kangxi":{
         "type":"Emperor",
-        "discription":"(FILL IN LATER)",
+        "discription":"Kangxi was a perticularly effective emperor who helped the Manchu rulers maintain controll though strong emperial leadership. Kangxi was a Confucian scholar.",
         "start":1661,
-        "end":1722
+        "end":1722,
+        "alsoSee":["Qing Dynasty","Qianlong"]
     },
     "Qianlong":{
         "type":"Emperor",
-        "discription":"(FILL IN LATER)",
+        "discription":"Quinlong, like Kangxi, helped stabalize Qing controll over China though strong emperial leadership.",
         "start":1736,
-        "end":1795
-    },
-    "British trade mission to China":{
-        "type":"Event",
-        "discription":"(FILL IN LATER)",
-        "start":1793,
-        "end":1793
+        "end":1795,
+        "alsoSee":["Qing Dynasty","Kangxi"]
     }
-    
-    
 }
